@@ -173,19 +173,16 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 2% 0 3% 0;
-  border: 2px solid red;
   border-bottom: 2px dashed #C0C0C0;
 }
 .top-nav header {
-  margin-left: 52px;
-  border: 2px solid blue;
+  margin-left: 5.2rem;
 }
 .top-nav nav {
   width: 30%;
-  margin-right: 52px;
+  margin-right: 5.2rem;
   display: flex;
   justify-content: space-evenly;
-  border: 2px solid blue;
 }
 .top-nav nav a {
   text-decoration: none;
@@ -202,6 +199,17 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .main-header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .main-header img {
+  margin-bottom: 1.5rem;
+}
+.home .main-header p {
+  padding-bottom: 2rem;
 }
 .home .content-section {
   margin: 30px 0;
