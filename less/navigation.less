@@ -1,1 +1,25 @@
 // Navigation Styles here
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 0 3% 0;
+    border: 2px solid red;
+    border-bottom: 2px dashed @navigation-border;
+    header {
+      margin-left: 52px;
+      border: 2px solid blue;
+    }
+    nav {
+      width: 30%;
+      margin-right: 52px;
+      display: flex;
+      justify-content: space-evenly;
+      border: 2px solid blue;
+        a {
+          text-decoration: none;
+          color: @font-color;
+          font-size: 1.4rem;
+        }
+    }
+}
