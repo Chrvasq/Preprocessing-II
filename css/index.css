@@ -304,9 +304,20 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 100%;
+    padding: 0 10%;
+  }
 }
 .home .content-pick .destination .btn {
   width: 80%;
@@ -316,4 +327,15 @@ img {
   font-size: 1.6rem;
   background: teal;
   color: white;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .btn {
+    width: 100%;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.6rem;
+    background: teal;
+    color: white;
+  }
 }

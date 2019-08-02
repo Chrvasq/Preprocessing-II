@@ -79,13 +79,23 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    @media @mobile {
+      flex-direction: column;
+    }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      @media @mobile {
+        width: 100%;
+        padding: 0 10%;
+      }
 
       .btn {
         .button(80%, center, teal, white);
+        @media @mobile {
+          .button(100%, center, teal, white);
+        }
       }
     }
   }
